@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Trắc Nghiệm Đọc Hiểu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1 class="section-title">III. Read the text and answer the questions by choosing A, B, C or D.</h1>
+
+        <div id="quiz-content">
+            </div>
+
+        <div class="navigation-buttons">
+            <button id="prevBtn" class="nav-btn" onclick="changePassage(-1)" disabled>Bài trước</button>
+            <span id="passage-indicator">Bài 1 / ?</span>
+            <button id="nextBtn" class="nav-btn" onclick="changePassage(1)">Bài tiếp</button>
+        </div>
+
+        <div id="quizResult" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
